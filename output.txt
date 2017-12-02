@@ -1,0 +1,207 @@
+How much memory is there?
+600
+How many jobs are there? Please enter no more than 5.
+4
+How big is Job1?
+80
+How big is Job2?
+150
+How big is Job3?
+90
+How big is Job4?
+200
+
+How many partitions are there? Please enter no more than 5.
+5
+How big is Partition1?
+125
+How big is Partition2?
+110
+How big is Partition3?
+85
+How big is Partition4?
+160
+How big is Partition5?
+120
+
+This is the first fit algorithm:
+------------------------------
+Job1:
+The size is 80
+This job is taking up Partition1.
+
+Job2:
+The size is 150
+This job is taking up Partition4.
+
+Job3:
+The size is 90
+This job is taking up Partition2.
+
+Job4:
+The size is 200
+This job is waiting to be used.
+
+Partition1:
+The size is 125
+The hole is: 45kb
+Job1 is taking up this partition.
+
+Partition2:
+The size is 110
+The hole is: 20kb
+Job3 is taking up this partition.
+
+Partition3:
+The size is 85
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition4:
+The size is 160
+The hole is: 10kb
+Job2 is taking up this partition.
+
+Partition5:
+The size is 120
+There is no hole.
+There are no jobs associated with this partition.
+
+There was 75kb wasted.
+
+This is the best fit algorithm:
+------------------------------
+Job1:
+The size is 80
+This job is taking up Partition3.
+
+Job2:
+The size is 150
+This job is taking up Partition4.
+
+Job3:
+The size is 90
+This job is taking up Partition2.
+
+Job4:
+The size is 200
+This job is waiting to be used.
+
+Partition1:
+The size is 125
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition2:
+The size is 110
+The hole is: 20kb
+Job3 is taking up this partition.
+
+Partition3:
+The size is 85
+The hole is: 5kb
+Job1 is taking up this partition.
+
+Partition4:
+The size is 160
+The hole is: 10kb
+Job2 is taking up this partition.
+
+Partition5:
+The size is 120
+There is no hole.
+There are no jobs associated with this partition.
+
+There was 35kb wasted.
+
+This is the worst fit algorithm:
+------------------------------
+Job1:
+The size is 80
+This job is taking up Partition4.
+
+Job2:
+The size is 150
+This job is waiting to be used.
+
+Job3:
+The size is 90
+This job is taking up Partition1.
+
+Job4:
+The size is 200
+This job is waiting to be used.
+
+Partition1:
+The size is 125
+The hole is: 35kb
+Job3 is taking up this partition.
+
+Partition2:
+The size is 110
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition3:
+The size is 85
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition4:
+The size is 160
+The hole is: 80kb
+Job1 is taking up this partition.
+
+Partition5:
+The size is 120
+There is no hole.
+There are no jobs associated with this partition.
+
+There was 115kb wasted.
+
+This is the next fit algorithm:
+------------------------------
+Job1:
+The size is 80
+This job is taking up Partition1.
+
+Job2:
+The size is 150
+This job is taking up Partition4.
+
+Job3:
+The size is 90
+This job is taking up Partition5.
+
+Job4:
+The size is 200
+This job is waiting to be used.
+
+Partition1:
+The size is 125
+The hole is: 45kb
+Job1 is taking up this partition.
+
+Partition2:
+The size is 110
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition3:
+The size is 85
+There is no hole.
+There are no jobs associated with this partition.
+
+Partition4:
+The size is 160
+The hole is: 10kb
+Job2 is taking up this partition.
+
+Partition5:
+The size is 120
+The hole is: 30kb
+Job3 is taking up this partition.
+
+There was 85kb wasted.
+
+Presione una tecla para continuar . . .
