@@ -20,7 +20,6 @@ using namespace std;
 int main() {
 	FitAlgs f;
 	f.print();
-
-	system("pause");
+	cin.get();
 	return 0;
-}
+
